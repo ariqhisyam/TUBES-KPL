@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TUBES1
 {
-    internal class DataMahasiswa1030223000134
+    internal class DataMahasiswa1030223000042
     {
         public async Task<Mahasiswa> ReadJsonAsync(string filePath)
         {
@@ -30,14 +30,14 @@ namespace TUBES1
         }
     }
 
-    public class Mahasiswa1030223000134
+    public class Mahasiswa1030223000042
     {
         public Nama nama { get; set; }
         public long nim { get; set; }
         public string fakultas { get; set; }
     }
 
-    public class Nama1030223000134
+    public class Nama1030223000042
     {
         public string depan { get; set; }
         public string belakang { get; set; }
