@@ -42,5 +42,17 @@ class Program
 
         var kuliahMahasiswa_103022300134 = new KuliahMahasiswa1030223000134();
         await kuliahMahasiswa_103022300134.ReadJSON(kuliahFilePath_103022300134);
+
+
+        Console.WriteLine();
+        Console.WriteLine("=== Muhammad Farras ===");
+        var mahasiswaFilePath_103022300042 = Path.Combine(jsonFolderPath, "tp7_1_103022300042.json");
+        var kuliahFilePath_103022300042 = Path.Combine(jsonFolderPath, "tp7_2_103022300042.json");
+
+        var dataMahasiswa_103022300042 = new DataMahasiswa1030223000042();
+        await dataMahasiswa_103022300042.ReadJsonAsync(mahasiswaFilePath_103022300042);
+
+        var kuliahMahasiswa_103022300042 = new KuliahMahasiswa1030223000134();
+        await kuliahMahasiswa_103022300042.ReadJSON(kuliahFilePath_103022300042);
     }
 }
